@@ -1,0 +1,24 @@
+<section class="teams-page">
+    <div class="invitation-card card-style">
+        <h2>🤝 Invite Your Team</h2>
+        <p>Share your unique referral link to earn bonuses.</p>
+        
+        <div class="referral-link-generator">
+            <input type="text" value="https://app.example.com/ref/USER12345" readonly id="referral-link">
+            <button id="copy-link-btn">
+                <i class="icon copy-icon"></i> Copy Link
+            </button>
+        </div>
+
+        <div class="share-buttons">
+            <button class="share-wa"><i class="icon wa-icon"></i> Share on WhatsApp</button>
+            <button class="share-tg"><i class="icon tg-icon"></i> Share on Telegram</button>
+        </div>
+    </div>
+
+    <div class="team-stats card-style">
+        <h3>Team Overview</h3>
+        <p>Total Team Members: <span class="dynamic-data">45</span></p>
+        <p>Earnings from Team: <span class="dynamic-data">₹ 985.50</span></p>
+    </div>
+</section>
