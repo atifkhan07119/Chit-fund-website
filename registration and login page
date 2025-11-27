@@ -1,0 +1,29 @@
+<div id="registration-container">
+    <div id="mobile-input-screen" class="auth-screen active">
+        <h2>Enter Mobile Number</h2>
+        <input type="tel" placeholder="Mobile Number" id="mobile-number-input">
+        <button id="send-otp-btn">Send OTP</button>
+    </div>
+
+    <div id="otp-verification-screen" class="auth-screen hidden">
+        <h2>Verify OTP</h2>
+        <p>A 6-digit code has been sent to +91 XXXX XXXX</p>
+        <div class="otp-inputs">
+            </div>
+        <button id="verify-otp-btn">Verify</button>
+        <button class="resend-otp-btn">Resend OTP</button>
+    </div>
+
+    <div id="create-password-screen" class="auth-screen hidden">
+        <h2>Create Password</h2>
+        <input type="password" placeholder="New Password">
+        <input type="password" placeholder="Confirm Password">
+        
+        <div class="captcha-group">
+            <span id="captcha-display">5A8Xz9</span>
+            <input type="text" placeholder="Enter Captcha">
+        </div>
+        
+        <button id="complete-registration-btn">Complete & Go to Dashboard</button>
+    </div>
+</div>
