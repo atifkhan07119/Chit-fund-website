@@ -1,0 +1,19 @@
+<section class="tools-page">
+    <h2>💳 Select Deposit Method</h2>
+    <p>Deposit Only. Withdrawal is done internally.</p>
+
+    <div class="payment-card card-style light-animation" data-method="phonepe">
+        <img src="/assets/icons/phonepe.svg" alt="PhonePe Icon">
+        <h3>PhonePe</h3>
+    </div>
+
+    <div class="payment-card card-style light-animation" data-method="paytm">
+        <img src="/assets/icons/paytm.svg" alt="Paytm Icon">
+        <h3>Paytm</h3>
+    </div>
+
+    <div class="payment-card card-style light-animation" data-method="gpay">
+        <img src="/assets/icons/googlepay.svg" alt="Google Pay Icon">
+        <h3>Google Pay</h3>
+    </div>
+</section>
