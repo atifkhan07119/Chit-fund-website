@@ -1,0 +1,39 @@
+<section class="mine-page">
+    <header class="profile-header">
+        <div class="user-avatar-placeholder"></div>
+        <h2>Hello, User Name!</h2>
+        <p>Account Status: <span class="status-kyc">KYC Verified</span></p>
+    </header>
+
+    <div class="overview-grid">
+        <div class="metric-card card-style">
+            <i class="icon deposit-total-icon"></i>
+            <p>Total Deposited</p>
+            <span class="dynamic-data">₹ 15,000</span>
+        </div>
+        <div class="metric-card card-style">
+            <i class="icon withdrawal-total-icon"></i>
+            <p>Total Withdrawal</p>
+            <span class="dynamic-data">₹ 4,500</span>
+        </div>
+        <div class="metric-card card-style">
+            <i class="icon tasks-icon"></i>
+            <p>Tasks Completed</p>
+            <span class="dynamic-data">25</span>
+        </div>
+        <div class="metric-card card-style">
+            <i class="icon bonus-icon"></i>
+            <p>Bonus Earned</p>
+            <span class="dynamic-data">₹ 1,200</span>
+        </div>
+    </div>
+
+    <div class="profile-actions">
+        <button class="action-btn edit-profile">
+            <i class="icon edit-icon"></i> Edit Profile
+        </button>
+        <button class="action-btn logout-btn">
+            <i class="icon logout-icon"></i> Logout
+        </button>
+    </div>
+</section>
