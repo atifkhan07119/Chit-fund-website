@@ -27,3 +27,11 @@
         <button id="complete-registration-btn">Complete & Go to Dashboard</button>
     </div>
 </div>
+document.getElementById('send-otp-btn').addEventListener('click', () => {
+    // Basic validation
+    // Simulate API call to send OTP
+    // Use fade/slide animation to switch screens
+    document.getElementById('mobile-input-screen').classList.remove('active');
+    document.getElementById('otp-verification-screen').classList.add('active');
+});
+// ... similar logic for OTP and Password screen transitions
