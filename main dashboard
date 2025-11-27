@@ -1,0 +1,26 @@
+<main id="main-content">
+    </main>
+
+<footer id="bottom-navigation">
+    <nav>
+        <a href="#home" class="nav-item active">
+            <i class="icon home-icon"></i> <span>Home</span>
+        </a>
+        <a href="#deposit" class="nav-item">
+            <i class="icon deposit-icon"></i>
+            <span>Deposit</span>
+        </a>
+        <a href="#tools" class="nav-item">
+            <i class="icon tools-icon"></i>
+            <span>Tools</span>
+        </a>
+        <a href="#teams" class="nav-item">
+            <i class="icon teams-icon"></i>
+            <span>Teams</span>
+        </a>
+        <a href="#mine" class="nav-item">
+            <i class="icon mine-icon"></i>
+            <span>Mine</span>
+        </a>
+    </nav>
+</footer>
