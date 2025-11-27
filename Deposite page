@@ -1,0 +1,26 @@
+<section class="deposit-section">
+    <header class="limit-display">
+        <span>Minimum Limit: ₹1</span>
+        <span>Maximum Limit: ₹100</span>
+    </header>
+
+    <div class="input-zone card-style">
+        <label for="deposit-amount-input">Deposit Amount</label>
+        <input type="number" id="deposit-amount-input" placeholder="Enter amount (e.g., 50)">
+        <input type="range" min="1" max="100" value="50" id="deposit-slider">
+    </div>
+
+    <div class="input-zone card-style">
+        <label for="confirm-amount-input">Confirm Amount</label>
+        <input type="number" id="confirm-amount-input" placeholder="Re-enter amount">
+    </div>
+
+    <div class="deposit-actions">
+        <button id="go-btn" class="action-btn primary-btn">
+            <i class="icon confirm-icon"></i> GO
+        </button>
+        <button id="reset-btn" class="action-btn secondary-btn">
+            <i class="icon reset-icon"></i> RESET
+        </button>
+    </div>
+</section>
