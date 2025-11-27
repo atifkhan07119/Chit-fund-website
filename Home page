@@ -1,0 +1,22 @@
+<header class="balance-header">
+    <div class="balance-card">
+        <h3>Total Balance</h3>
+        <p class="balance-amount dynamic-data">₹ 15,450.75</p>
+        <button class="withdraw-btn">Withdraw</button>
+    </div>
+</header>
+
+<section class="monthly-plans-section">
+    <h2>📈 Monthly Plans</h2>
+    
+    <div class="plan-card light-animation">
+        <div class="card-content">
+            <h3>Silver Starter Plan</h3>
+            <p>If you deposit <span class="highlight">₹5,000</span> monthly</p>
+            <p>You get <span class="extra-return">₹750</span> extra return!</p>
+        </div>
+    </div>
+
+    <div class="plan-card light-animation">
+        </div>
+</section>
